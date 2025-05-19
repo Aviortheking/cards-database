@@ -61,7 +61,7 @@ _[Support us as a sponsor](https://github.com/sponsors/tcgdex) and have your log
 </p>
 
 <p align="center">
-  <!-- <a href="https://dzeio.com" target="_blank" title="Dzeio"><img height="80" width="19%" src="./.github/sponsors/dzeio.svg" alt="TCGdex Sponsor Dzeio" /></a> -->
+  <a href="https://outpost.be" target="_blank" title="Outpost"><img height="80" width="19%" src="./.github/sponsors/outpost.svg" alt="TCGdex Sponsor Outpost" /></a>
 </p>
 
 ## Contributors ✨
