@@ -1,18 +1,17 @@
 # Technology Stack
 
-| Component | Technology | Notes |
-|-----------|------------|--------|
-| Master Server | Express + Bun | Handles writes, sync broadcasts |
-| Admin Interface | React/Vue | Web dashboard |
-| Edge Servers | Express + Bun | Current v2 + L0 cache |
-| GraphQL | GraphQL-HTTP | Current v2 |
-| Card Detection | YOLOv8 + CLIP | NEW |
-| Vector Search | FAISS | NEW |
-| Rate Limiting | Redis/Bucket (per edge) | NEW |
-| API Keys | Redis + JWT (master) | NEW |
-| Pricing History | SQLite | Local |
-| Caching | Cachex (in-memory per edge) | Current v2 |
-| Sync | WebSocket / Redis PubSub | NEW |
+| Component       | Technology                  | Notes                           |
+| --------------- | --------------------------- | ------------------------------- |
+| Master Server   | Astro + Bun                 | Management interface            |
+| Edge Servers    | Express + Bun               | Current v2 + L0 cache           |
+| GraphQL         | GraphQL-HTTP                | Current v2                      |
+| Card Detection  | YOLOv8 + CLIP               | NEW                             |
+| Vector Search   | FAISS                       | NEW                             |
+| Rate Limiting   | Redis/Bucket (per edge)     | NEW                             |
+| API Keys        | Redis + JWT (master)        | NEW                             |
+| Pricing History | SQLite                      | Local                           |
+| Caching         | Cachex (in-memory per edge) | Current v2                      |
+| Sync            | WebSocket / Redis PubSub    | NEW                             |
 
 ---
 
